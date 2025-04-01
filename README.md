@@ -1,7 +1,5 @@
 # SmartSlideGen
 
-# SmartSlideGen
-
 SmartSlideGen is an AI-powered pipeline that automatically converts Microsoft Word documents into professional PowerPoint presentations. The system extracts text and embedded images in the order they appear, processes the text via a generative AI API to create slide content, and dynamically integrates images with the corresponding text to produce a cohesive, visually appealing presentation.
 
 ## Features
