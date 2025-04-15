@@ -1,0 +1,99 @@
+[
+    {
+        "title": "Introduction to Artificial Intelligence",
+        "text": "• AI focuses on designing systems that replicate human cognitive capabilities\n• Leverages machine learning, deep learning, and natural language understanding\n• Enables machines to interpret data, identify trends, and make decisions\n• Widespread integration across multiple sectors\n• Challenges include data privacy, fairness, and accountability",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/pptWithBreaking/images/img_p0_0_introduction_to_artificial_intelligence.png",
+        "table": []
+    },
+    {
+        "title": "AI in Healthcare - Overview",
+        "text": "• Revolutionizing medical field with innovative solutions\n• Enhances patient care and streamlines operations\n• Improves diagnostic accuracy through advanced algorithms\n• Enables early disease detection and pattern recognition",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/pptWithBreaking/images/img_p1_1_and_cardiovascular_conditions_these_too.png",
+        "table": []
+    },
+    {
+        "title": "AI in Healthcare - Applications",
+        "text": "• Medical imaging interpretation using neural networks\n• Robotic surgery for enhanced precision\n• AI-driven predictive analytics for resource allocation\n• Personalized medicine and treatment planning\n• Support for healthcare professional decision-making",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI in Education",
+        "text": "• Creates personalized learning experiences\n• Adaptive learning platforms for individual pacing\n• Intelligent tutoring systems with real-time feedback\n• Automated grading and administrative assistance\n• Early identification of at-risk students\n• Language translation and accessibility tools",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/pptWithBreaking/images/img_p2_2_ai_in_educationartificial_intelligence_.png",
+        "table": []
+    },
+    {
+        "title": "AI in Transportation",
+        "text": "• Enhanced safety, efficiency, and sustainability\n• Real-time analysis of traffic patterns and conditions\n• Autonomous vehicles for improved road safety\n• Smart public transit scheduling and route planning\n• AI-driven logistics and supply chain optimization\n• Environmental sustainability and emission reduction",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI in Finance",
+        "text": "• Advanced analytics for market predictions\n• Real-time fraud detection\n• Personalized banking experiences\n• AI-powered chatbots and recommendation systems\n• Algorithmic trading capabilities\n• Enhanced risk management",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/pptWithBreaking/images/img_p3_3_al____al____al____alai_in_financeai_i.png",
+        "table": []
+    },
+    {
+        "title": "ML Workflow - Data Preprocessing",
+        "text": "• Data Cleaning: Handle missing values and outliers\n• Data Transformation: Normalize and standardize data\n• Feature Engineering: Create informative features\n• Encoding Categorical Data: Convert to numerical format\n• Feature Selection: Identify relevant features\n• Data Splitting: Create training, validation, and test sets",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "ML Workflow - Model Training",
+        "text": "• Feed training data into ML algorithms\n• Tune model parameters and weights\n• Minimize loss function through optimization\n• Use techniques like gradient descent\n• Map input features to output labels\n• Learn patterns and relationships in data",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "ML Workflow - Model Evaluation",
+        "text": "• Assess models using validation set\n• Apply appropriate performance metrics\n• Perform hyperparameter tuning\n• Balance overfitting and underfitting\n• Use techniques like grid search and random search\n• Monitor model generalization ability",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "ML Workflow - Model Selection & Testing",
+        "text": "• Select best performing model on validation set\n• Consider model simplicity and interpretability\n• Evaluate resource requirements\n• Test on unseen data\n• Assess real-world performance\n• Consider practical deployment factors",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI Across Domains - Summary",
+        "text": "Key applications and challenges across sectors:\n• Healthcare: Early diagnosis, personalized treatment\n• Education: Adaptive learning, automated support\n• Transportation: Autonomous vehicles, route optimization\n• Finance: Fraud detection, algorithmic trading",
+        "image": "",
+        "table": [
+            [
+                "Domain",
+                "Key Applications",
+                "Benefits",
+                "Challenges"
+            ],
+            [
+                "Healthcare",
+                "Early disease diagnosis, personalized treatment, medical imaging, robotic surgery",
+                "Improved accuracy, efficiency, patient outcomes, and resource allocation",
+                "Data privacy, regulatory requirements, need for human oversight"
+            ],
+            [
+                "Education",
+                "Adaptive learning, intelligent tutoring, automated grading, performance analytics",
+                "Personalized learning, increased accessibility, early intervention, administrative support",
+                "Data ethics, equitable access, over-reliance on technology"
+            ],
+            [
+                "Transportation",
+                "Autonomous vehicles, route optimization, public transit planning, logistics AI",
+                "Enhanced safety, reduced congestion, cost-efficiency, smarter cities",
+                "Regulatory hurdles, cybersecurity, public trust"
+            ],
+            [
+                "Finance",
+                "Fraud detection, algorithmic trading, personalized banking, risk management",
+                "Real-time insights, improved customer service, efficiency, fraud prevention",
+                "Algorithmic bias, ethical concerns, data protection, regulatory compliance"
+            ]
+        ]
+    }
+]
