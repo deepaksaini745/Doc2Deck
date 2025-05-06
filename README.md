@@ -26,7 +26,3 @@
 - [Pillow](https://pillow.readthedocs.io/)
 - [dotenv](https://pypi.org/project/python-dotenv/)
 
----
-
-## 📁 Project Structure
-
