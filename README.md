@@ -1,24 +1,32 @@
-# Doc2Deck
+# 📚 Doc2Deck – AI-Powered Document-to-Presentation Generator
 
-Doc2Deck is an AI-powered pipeline that automatically converts Microsoft Word documents into professional PowerPoint presentations. The system extracts text and embedded images in the order they appear, processes the text via a generative AI API to create slide content, and dynamically integrates images with the corresponding text to produce a cohesive, visually appealing presentation.
+**Doc2Deck** is an end-to-end Python pipeline that converts unstructured `.docx` documents into structured, visually engaging PowerPoint presentations. It combines document parsing, GPT-based topic generation, image captioning, and table reconstruction to automate professional slide creation with minimal manual effort.
 
-## Features
+---
 
-- **Text Extraction:**  
-  Extracts text sequentially from a Word document using the `python-docx` library.
+## 🚀 Features
 
-- **Image Extraction:**  
-  Identifies and extracts embedded images, saving them locally with unique filenames.
+- 📄 **Advanced Document Parsing** using `LlamaParse` for extracting text, tables, and images.
+- 🧠 **Topic-Aware Chunking** of long documents with GPT-based semantic grouping.
+- 🖼️ **Image Filtering & Captioning** to skip blank/solid images and generate smart captions via GPT.
+- 📊 **Table Handling** with fallback to Markdown extraction if structured data is missing.
+- 🎯 **Image-to-Slide Mapping** using fuzzy logic and GPT-based caption matching.
+- 🧹 **Content Refinement** to clean up GPT output and avoid repetition or filler slides.
+- 🎨 **PowerPoint Generation** with custom formatting, layout adjustments, and templating support.
 
-- **AI-Powered Slide Generation:**  
-  Generates structured slide content (titles and bullet points) by sending custom prompt templates to an external AI API.
+---
 
-- **Dynamic Slide Creation:**  
-  Uses the `pptx` library to load a PowerPoint template, clear existing slides, and create new slides with both text and images.
+## 🧩 Tech Stack
 
-- **Content Filtering:**  
-  Implements skip phrases and duplicate detection (via Python’s `SequenceMatcher`) to avoid redundant slide creation.
+- **Python 3.8+**
+- [python-pptx](https://github.com/scanny/python-pptx)
+- [LlamaParse (LlamaIndex Cloud)](https://llamahub.ai/)
+- [OpenAI GPT-4 / GPT-3.5 Turbo](https://openai.com/)
+- [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
+- [Pillow](https://pillow.readthedocs.io/)
+- [dotenv](https://pypi.org/project/python-dotenv/)
 
-- **Error Handling:**  
-  Incorporates robust error management during API calls and image processing to ensure smooth execution.
+---
+
+## 📁 Project Structure
 
