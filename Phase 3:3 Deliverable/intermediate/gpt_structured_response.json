@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Introduction to Artificial Intelligence",
+        "text": "• AI is a cutting-edge area of computer science\n• It focuses on replicating human cognitive capabilities\n• Empowers machines to interpret data, identify trends, and make autonomous decisions\n• Its integration across sectors is transforming problem-solving and solution implementation\n• It introduces new challenges in maintaining ethical standards",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p0_0_FIG_1_Intro_to_AI.png",
+        "table": []
+    },
+    {
+        "title": "AI Revolutionizing Healthcare",
+        "text": "• AI enhances patient care, streamlines operations, and improves diagnostic accuracy\n• AI tools support healthcare professionals by offering decision-making insights\n• AI applications extend to medical imaging and robotic surgery\n• AI-driven predictive analytics are used to anticipate patient needs",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p1_1_FIG_2_Healthcare_Application.png",
+        "table": []
+    },
+    {
+        "title": "Challenges in AI Healthcare Integration",
+        "text": "• Integrating AI into healthcare presents challenges\n• These include data privacy concerns and the need for robust regulatory frameworks\n• There is an ongoing requirement for human oversight to interpret AI outputs responsibly",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI Applications Across Domains",
+        "text": "• AI has diverse applications across various domains\n• Each domain presents unique benefits and challenges\n• The key applications, benefits, and challenges are detailed in the table below",
+        "image": "",
+        "table": [
+            [
+                "Domain",
+                "Key Applications",
+                "Benefits",
+                "Challenges"
+            ],
+            [
+                "Healthcare",
+                "Early disease diagnosis, personalized treatment, medical imaging, robotic surgery",
+                "Improved accuracy, efficiency, patient outcomes, and resource allocation",
+                "Data privacy, regulatory requirements, need for human oversight"
+            ],
+            [
+                "Education",
+                "Adaptive learning, intelligent tutoring, automated grading, performance analytics",
+                "Personalized learning, increased accessibility, early intervention, administrative support",
+                "Data ethics, equitable access, over-reliance on technology"
+            ],
+            [
+                "Transportation",
+                "Autonomous vehicles, route optimization, public transit planning, logistics AI",
+                "Enhanced safety, reduced congestion, cost-efficiency, smarter cities",
+                "Regulatory hurdles, cybersecurity, public trust"
+            ],
+            [
+                "Finance",
+                "Fraud detection, algorithmic trading, personalized banking, risk management",
+                "Real-time insights, improved customer service, efficiency, fraud prevention",
+                "Algorithmic bias, ethical concerns, data protection, regulatory compliance"
+            ]
+        ]
+    },
+    {
+        "title": "AI's Impact on Transportation",
+        "text": "• AI is transforming transportation for safety, efficiency, and sustainability\n• Machine learning optimizes routes and reduces congestion\n• Autonomous vehicles minimize human error and improve road safety\n• AI assists in public transit scheduling, demand forecasting, and route planning",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p2_2_FIG_3_Transport_Sector_Utility_of_AI.png",
+        "table": []
+    },
+    {
+        "title": "AI in Logistics and Supply Chain",
+        "text": "• AI-driven predictive analytics benefit logistics and supply chain operations\n• AI helps streamline deliveries and reduce operational costs\n• AI integration is crucial for smarter cities and reduced carbon emissions\n• Challenges include regulatory hurdles, cybersecurity concerns, and public trust",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI's Role in Finance",
+        "text": "• AI revolutionizes finance with advanced analytical tools and automation\n• Machine learning enables accurate predictions of market trends and investment opportunities\n• AI enhances fraud detection and maintains regulatory compliance\n• AI-powered platforms facilitate personalized banking experiences and streamline customer interactions",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p3_3_FIG_4_AI_s_Application_in_Finance.png",
+        "table": []
+    },
+    {
+        "title": "AI in Algorithmic Trading",
+        "text": "• Algorithmic trading is a prominent application of AI\n• Rapid processing speeds allow for swift execution of trades\n• AI reduces operational costs and improves efficiency\n• Ethical concerns, data privacy issues, and algorithmic biases need to be addressed",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI Transforming Education",
+        "text": "• AI is creating personalized, efficient, and accessible learning experiences\n• AI-powered tools adapt to individual learning styles and paces\n• Intelligent tutoring systems provide real-time feedback and support outside the classroom\n• AI helps identify at-risk students early by analyzing performance data",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p0_0_FIG_1_Intro_to_AI.png",
+        "table": []
+    },
+    {
+        "title": "Benefits of AI in Education",
+        "text": "• AI offers tailored content through adaptive learning platforms\n• Enhances understanding and retention of students\n• Educators benefit from automated grading and administrative assistance\n• Enables timely intervention for at-risk students",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI Making Education Inclusive",
+        "text": "• AI-powered language translation and speech recognition tools make education more inclusive\n• Beneficial for students with diverse linguistic backgrounds\n• Helpful for students with special needs\n• Allows educators to focus more on teaching and student engagement",
+        "image": "",
+        "table": []
+    },
+    {
+        "title": "AI's Future Potential",
+        "text": "• AI continues to evolve\n• Potential to bridge gaps in education\n• Promote lifelong learning opportunities for all",
+        "image": "/Users/deepaksaini/Desktop/ETB_Project/Phase 3:3 Deliverable/images/img_p0_0_FIG_1_Intro_to_AI.png",
+        "table": []
+    }
+]
