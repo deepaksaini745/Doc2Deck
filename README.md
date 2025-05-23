@@ -1,49 +1,85 @@
-Doc2Deck
-Doc2Deck is an AI-powered document-to-presentation pipeline that automates the conversion of unstructured Microsoft Word documents into structured, professionally formatted PowerPoint slides. Designed for analysts, consultants, educators, and business professionals, it streamlines the traditionally manual and repetitive slide creation process using modern language models and document parsers.
-Key Features
-Structured Extraction: Parses .docx files to extract paragraphs, images, and tables using LlamaParse.
-LLM-Driven Slide Generation: Generates titles, bullet points, and layout suggestions via Claude and GPT APIs.
-Intelligent Image Mapping: Uses captioning and similarity scoring to associate images with relevant slide content.
-Table Rendering Support: Extracts and formats structured and Markdown-style tables into PowerPoint slides.
-Design Consistency: Maintains uniform fonts, spacing, and visual hierarchy using a predefined template.
-Pipeline Orchestration: Modular code for parsing, prompt generation, layout logic, and output rendering.
-Error Handling & Logging: Includes fallback logic for API failures, schema mismatches, and layout inconsistencies.
-How It Works
-Document Parsing
-Extracts text, images, and tables from Word documents using LlamaParse.
-Renames visual assets using contextual metadata for traceability.
-Topic-Aware Chunking
-GPT-based segmentation divides text into semantically coherent sections for slide generation.
-Content Enrichment
-Structured slide JSON is generated using Claude or GPT-4 based on each text chunk.
-A refinement pass corrects formatting and ensures consistency.
-Image Captioning and Mapping
-GPT-4 Turbo generates captions for each image.
-Semantic similarity scores match captions with slide text for intelligent placement.
-Table Insertion
-Tables are rendered with dynamic sizing, bolded headers, and layout adaptations.
-Supports fallback Markdown parsing when structured tables are missing.
-PowerPoint Rendering
-Generates slides with python-pptx using the enriched JSON.
-Final slides include text, visuals, and a custom “Thank You” slide.
-Technology Stack
-Python 3.10+
-LlamaParse (LlamaIndex API) – Document parsing
-Claude (Anthropic API) – Slide generation and enrichment
-GPT-4 / GPT-4 Turbo (OpenAI API) – Topic chunking, image captioning, and layout refinement
-python-docx – Legacy Word parsing
-python-pptx – PowerPoint file generation
-FuzzyWuzzy / difflib – Similarity scoring for redundancy checks and image mapping
-Known Challenges
-JSON format inconsistencies from LLMs
-Image-slide mismatches due to poor caption relevance
-Table layout instability with wide or complex structures
-API rate limits and token constraints on long documents
-Future Roadmap
-Interactive web-based presentation exports
-Embedding-based visual mapping
-Diagram generation via Mermaid or Graphviz
-Enterprise-grade testing and CI/CD integration
-Contributors
-Deepak Saini – saini50@purdue.edu
-Mokshda Sharma – sharm879@purdue.edu
+# Doc2Deck
+
+**Doc2Deck** is an AI-powered document-to-presentation pipeline that automates the conversion of unstructured Microsoft Word documents into structured, professionally formatted PowerPoint slides. Designed for analysts, consultants, educators, and business professionals, it streamlines the traditionally manual and repetitive slide creation process using modern language models and document parsers.
+
+---
+
+## Key Features
+
+* **Structured Extraction**: Parses `.docx` files to extract paragraphs, images, and tables using **LlamaParse**.
+* **LLM-Driven Slide Generation**: Uses **Claude** and **GPT APIs** to generate titles, bullet points, and layout suggestions.
+* **Intelligent Image Mapping**: Associates images with relevant slide content using captioning and semantic similarity scoring.
+* **Table Rendering Support**: Extracts and formats both structured and Markdown-style tables into clean PowerPoint slides.
+* **Design Consistency**: Ensures visual uniformity with predefined templates (fonts, spacing, layout hierarchy).
+* **Pipeline Orchestration**: Modular code for document parsing, prompt generation, layout logic, and output rendering.
+* **Robust Error Handling**: Fallback logic for API failures, schema mismatches, and layout inconsistencies.
+
+---
+
+## How It Works
+
+### 1. Document Parsing
+
+* Extracts text, images, and tables using **LlamaParse**.
+* Renames visual assets using contextual metadata.
+
+### 2. Topic-Aware Chunking
+
+* Uses **GPT-4** to segment document text into semantically meaningful sections.
+
+### 3. Content Enrichment
+
+* Generates slide-level JSON (titles, bullets, layout hints) via **Claude** or **GPT-4**.
+* Applies refinement logic for formatting and consistency.
+
+### 4. Image Captioning and Mapping
+
+* **GPT-4 Turbo** generates captions for images.
+* Semantic matching ensures images are placed with the most relevant slides.
+
+### 5. Table Insertion
+
+* Dynamically renders tables with bolded headers and adaptive layouts.
+* Falls back to Markdown parsing if needed.
+
+### 6. PowerPoint Rendering
+
+* Uses **python-pptx** to generate the final slide deck from enriched JSON.
+* Includes custom "Thank You" slide with branded formatting.
+
+---
+
+## Technology Stack
+
+* **Python** 3.10+
+* [**LlamaParse**](https://llamaindex.ai/) (LlamaIndex API) – for document parsing
+* **Claude** (Anthropic API) – for slide generation and JSON structuring
+* **GPT-4 / GPT-4 Turbo** (OpenAI API) – for topic chunking, image captioning, and layout refinement
+* **python-docx** – for legacy `.docx` support
+* **python-pptx** – for PowerPoint creation
+* **FuzzyWuzzy** / `difflib` – for image-slide similarity scoring and deduplication
+
+---
+
+## Known Challenges
+
+* Inconsistent JSON structures from LLMs across large documents
+* Caption-slide mismatches due to low relevance or ambiguity
+* Table rendering issues with overly wide or complex structures
+* API rate limits and token constraints on long documents
+
+---
+
+## Future Roadmap
+
+* Web-based interface for real-time slide previews
+* Embedding-based visual mapping using vector similarity
+* Auto-diagram generation using **Mermaid** or **Graphviz**
+* Enterprise-grade CI/CD pipeline for scalable deployment
+
+---
+
+## Contributors
+
+* **Deepak Saini** – [saini50@purdue.edu](mailto:saini50@purdue.edu)
+* **Mokshda Sharma** – [sharm879@purdue.edu](mailto:sharm879@purdue.edu)
